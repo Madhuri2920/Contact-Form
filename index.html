@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <form id="contactForm">
+      <h2>Contact Us</h2>
+
+      <div class="form-group">
+        <input type="text" id="name" placeholder="Name" />
+        <small class="error" id="nameError"></small>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" placeholder="Email" />
+        <small class="error" id="emailError"></small>
+      </div>
+
+      <div class="form-group">
+        <textarea id="message" rows="4" placeholder="Message"></textarea>
+        <small class="error" id="messageError"></small>
+      </div>
+
+      <button type="submit">Send Your Message</button>
+      <p id="successMessage" class="success"></p>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
